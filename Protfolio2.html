@@ -10,17 +10,22 @@
 <body>
 	<header class="site-header">
 		<div class="container header-inner">
-			<a class="brand" href="#hero">Vishal Chakradhari</a>
+			<div class="brand-wrap">
+				<a class="brand" href="#hero"><span class="logo">VC</span> Vishal Chakradhari</a>
+			</div>
 			<nav class="main-nav" id="mainNav">
 				<a href="#about">About</a>
 				<a href="#skills">Skills</a>
-				<a href="#projects">Projects</a>
+				<a href="#projects">Work</a>
 				<a href="#gallery">3D & Art</a>
 				<a href="#content">Content</a>
 				<a href="#certs">Certs</a>
 				<a href="#contact">Contact</a>
 			</nav>
-			<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+			<div class="header-ctas">
+				<a class="btn btn-ghost" href="#contact">Get in touch</a>
+				<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+			</div>
 		</div>
 	</header>
 
@@ -70,38 +75,37 @@
 
 		<section id="projects" class="section">
 			<div class="container">
-				<h2>Selected Projects</h2>
+				<h2>Work in Progress</h2>
+				<p>I'm actively iterating on several prototypes and systems. Below are short notes on what I'm building now — prototypes will be shared as playable builds or case studies as they reach a presentable state.</p>
 				<div class="projects-grid">
 					<article class="project-card">
-						<div class="thumb" style="background-image:url('Asset/images/project-1.png')"></div>
+						<div class="thumb" style="background-color: #071016; display:flex;align-items:center;justify-content:center;"><div style="color:var(--muted);font-weight:600">WIP</div></div>
 						<div class="project-body">
-							<h3>Prototype: Tactical Environment</h3>
+							<h3>Prototype: Tactical Environment (WIP)</h3>
 							<p class="meta">Unreal Engine · C++ · Level Design</p>
-							<p>Small playable prototype exploring tactical movement, cover mechanics, and modular level pieces. Built with a focus on tight controls and procedural placement systems.</p>
-							<div class="links"><a href="#">Repo</a> · <a href="#">Live build</a></div>
+							<p>Working on movement, cover systems, and modular level tooling. Early builds are internal; public demo planned after iterative playtests.</p>
 						</div>
 					</article>
 
 					<article class="project-card">
-						<div class="thumb" style="background-image:url('Asset/images/project-2.png')"></div>
+						<div class="thumb" style="background-color: #071016; display:flex;align-items:center;justify-content:center;"><div style="color:var(--muted);font-weight:600">WIP</div></div>
 						<div class="project-body">
-							<h3>Environment: Neon Outpost</h3>
+							<h3>Environment: Neon Outpost (WIP)</h3>
 							<p class="meta">Blender · UE Lighting · Material Authoring</p>
-							<p>Environment focused on mood and silhouette, combining hand-modeled assets and procedural tiling materials to keep draw calls low while delivering visual fidelity.</p>
-							<div class="links"><a href="#">Gallery</a> · <a href="#">Notes</a></div>
+							<p>Iterating on silhouette, storytelling through lighting, and material efficiency for real-time scenes.</p>
 						</div>
 					</article>
 
 					<article class="project-card">
-						<div class="thumb" style="background-image:url('Asset/images/project-3.png')"></div>
+						<div class="thumb" style="background-color: #071016; display:flex;align-items:center;justify-content:center;"><div style="color:var(--muted);font-weight:600">WIP</div></div>
 						<div class="project-body">
-							<h3>Systems: AI Patrols</h3>
+							<h3>Systems: AI Patrols (WIP)</h3>
 							<p class="meta">C++ · Behavior Trees</p>
-							<p>Gameplay AI systems that combine navigation, perception, and tactical decisions inspired by chess positional logic — prioritizing objectives and controlling space.</p>
-							<div class="links"><a href="#">Read</a> · <a href="#">Code</a></div>
+							<p>Building reusable AI modules for patrols and tactical decision-making. Expect a short write-up and code snippets once the API stabilizes.</p>
 						</div>
 					</article>
 				</div>
+				<p class="note">Want early access or to collaborate? Reach out via the contact section — I can share builds or a short design doc on request.</p>
 			</div>
 		</section>
 
