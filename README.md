@@ -1,10 +1,10 @@
-# Portfolio — First Last
+# Portfolio — Vishal Chakradhari
 
 This is a single-file portfolio focused on game development, Unreal Engine, C++ programming, 3D art (Blender), environment design, and creative technical work.
 
 Files created:
 
-- `Protfolio2.html` — Main portfolio page (single-page layout).
+- `Protfolio2.html` — Main portfolio page (single-page layout). Copyright © Vishal Chakradhari.
 - `styles.css` — Site styles (dark theme with neon accents).
 - `script.js` — Small interactions: nav toggle, smooth scrolling, gallery lightbox.
 
